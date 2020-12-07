@@ -12,7 +12,7 @@ class calcTest(unittest.TestCase):
         self.assertEqual(ci.sub(55,21),34)
 
     def test_my_own(self):
-        self.assertEquals(ci.add(23,34,21),sub(0,-23,-34,-21),'success')
+        self.assertEquals(ci.add(23,34,21),ci.sub(0,-23,-34,-21),'success')
 
 
 if __name__ == '__main__':
