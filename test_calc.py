@@ -1,14 +1,15 @@
 import unittest
-import simple_calc as sc
+import calc_implementer as ci
 
 class calc_test(unittest.TestCase):
 
     def test_add(self):
-        self.assertEqual(sc.add(23,45),68)
+        self.assertEqual(ci.add(23,45),68)
 
 
     def test_sub(self):
-        self.assertEqual(sc.sub(24,21),3)
+        self.assertEqual(ci.sub(24,21),3)
+        self.assertEqual(ci.sub(24,21),34)
 
 
 if __name__ == '__main__':
