@@ -5,3 +5,5 @@ if __name__ == '__main__':
     calc = sc.calc()
 
     print(calc.add(20,30,4,4,5,53,1,-121,92))
+
+    print(calc.sub(23,2,1))
